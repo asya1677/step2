@@ -6,14 +6,14 @@
     <title>Lesson_3</title>
 </head>
 
-<body id="body">
-    <header>
-        <p>
+<body>
+    <header class="content">
+        <p class="content__logo">
             <img src="pic/logo.png" width="250" height="auto">
             <img src="pic/chai.jpg" width="150" height="auto">
         </p>
-        <form align="right">
-            <button type="sumbit">Войти</button>
+        <form align="right" class="content__form">
+            <button type="sumbit" class="content__button content__button--reg">Войти</button>
             <br>
             <br>
             <input type="text" id="userName" name="userName" size="18px" />
@@ -22,27 +22,27 @@
         <hr>
 
         <nav class="toolbar">
-            <a href="#body">Главная</a>
+            <a href="#body" class="toolbar__link">Главная</a>
             <br>
             <br>
             <details>
-                <summary>Категории</summary>
+                <summary class="toolbar__name">Категории:</summary>
                 <li>
-                    <a href="#chai">Чайники</a>
+                    <a href="#chai" class="toolbar__link">Чайник</a>
                 </li>
                 <li>
-                    <a href="#piala">Пиалы</a>
+                    <a href="#piala" class="toolbar__link">Пиала</a>
                 </li>
                 <li>
-                    <a href="#gaivan">Гайвань</a>
+                    <a href="#gaivan" class="toolbar__link">Гайвань</a>
                 </li>
             </details>
             <br>
         </nav>
     </header>
 
-    <main>
-        <h2 id="chai">Чайник</h2>
+    <main class="main">
+        <h2 id="chai" class="main__title">Чайник</h2>
         <p>
             Чайник — один из главных инструментов чаепития. Заварочный чайник (Ча Ху, в китайской терминологии) берет свое начало в далеком
             XVI в н.э. На сегодняшний день существует огромное количество разновидностей чайников – это и фарфоровые, и глиняные,
@@ -67,9 +67,9 @@
             <img src="pic/chai_3.jpg">
         </a>
         <br>
-        <a href="https://www.tea-mail.by/posuda/chayniki.html">Купить</a>
+        <a href="https://www.tea-mail.by/posuda/chayniki.html" class="toolbar__link">Купить</a>
 
-        <h2 id="piala">Пиалы</h2>
+        <h2 id="piala" class="main__title">Пиала</h2>
         <p>
             Современные стеклянные пиалы с двойными стенками не обжигают руки при любой температуре воды. Традиционная пиала — это керамическая
             чаша без ручек, наиболее распространенный вид посуды для питья чая на востоке. Небольшие чайные чаши или пиалы
@@ -84,9 +84,9 @@
             <img src="pic/piala_2.jpg">
         </a>
         <br>
-        <a href="https://www.tea-mail.by/posuda/pialy.html">Купить</a>
+        <a href="https://www.tea-mail.by/posuda/pialy.html" class="toolbar__link">Купить</a>
 
-        <h2 id="gaivan">Гайвань</h2>
+        <h2 id="gaivan" class="main__title">Гайвань</h2>
         <p>
             Гайвань (盖碗; Gàiwǎn; Гай Вань) переводится как «чаша с крышкой».</p>
         <p>
@@ -107,13 +107,13 @@
             <img src="pic/gajvan_2.jpg">
         </a>
         <br>
-        <a href="https://www.tea-mail.by/posuda/gaivani.html">Купить</a>
+        <a href="https://www.tea-mail.by/posuda/gaivani.html" class="toolbar__link">Купить</a>
     </main>
 
     <footer>
         <hr>
         <hr> Использовался материал с сайта
-        <a href="https://www.tea-mail.by/">https://www.tea-mail.by</a>
+        <a href="https://www.tea-mail.by/" class="toolbar__link">https://www.tea-mail.by</a>
         <hr>
         <hr>
         <br>
